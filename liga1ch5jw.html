@@ -99,11 +99,10 @@
         var keyid = getParameterByName('keyid');
         var key = getParameterByName('key');
         var getIMG = getParameterByName('img');
-        var getRASIO = getParameterByName('rasio');
       var gons = getParameterByName('ns');
     </script>
 
-<div id="lsbtv"> </div>
+<div id="player"> </div>
 
   <!--
   <div class="konten-atas">
@@ -152,10 +151,9 @@
 
 	
 
- 
 
     <script type="text/javascript">
-        var player = jwplayer("player");
+        var player = jwplayer("playr");
 
         player.setup({
             playlist: [{
@@ -197,17 +195,12 @@
             //sharing: {}
         });
 
-	    <script src='https://dandisuwo.github.io/ads/iklan5jw.js' crossorigin='anonymous'>
- </script>
       function toggleStretchingMode() {
     player.setConfig({
       stretching: player.getConfig().stretching === "uniform" ? "exactfit" : "uniform"
     });
   }
 
-  // Tambahkan event listener ke tombol
-  const stretchingButton = document.getElementById("stretching-button");
-  stretchingButton.addEventListener("click", toggleStretchingMode);
 
 
 
@@ -226,6 +219,10 @@
             window.open(newLink, '_blank');
         }
   </script>
+
+  <script src='https://dandisuwo.github.io/ads/iklan5jw.js' crossorigin='anonymous'>
+ </script>
+	  
 	     <script type="text/javascript" src='https://reisyah.github.io/ngopy/function.js'></script>
   
 		</script>
